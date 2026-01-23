@@ -83,7 +83,7 @@ If you need to write http API integration or parse code better write it first on
 
 # Client-Server Interaction
 
-- Client and server can be on different machines; account for network latency and payload size.
+- Client and server can be on different machines; do not assume shared file system paths.
 - In forms, avoid unnecessary server calls; large tables/trees increase payload and can slow the UI.
 - If a server call is required, prefer `&НаСервереБезКонтекста` and minimize form data transfer.
 
