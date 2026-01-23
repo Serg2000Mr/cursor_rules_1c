@@ -43,7 +43,10 @@ Every task you execute must follow this procedure without exception:
 • Ensure your code aligns with the existing codebase patterns and avoids regressions.
 • Explicitly verify whether anything downstream will be impacted.
 
-**5. Deliver Clearly**
+**5. Fallback to Debugging**
+If you fail to fix an issue after three attempts, implement diagnostic logging and inform the developer.
+
+**6. Deliver Clearly**
 • Summarize what was changed and why.
 • List every file modified and provide a concise description of the changes in each (paths in backticks).
 • Highlight any potential risks, trade-offs, or areas requiring special developer attention for review.
