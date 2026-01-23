@@ -81,6 +81,12 @@ If you need to write http API integration or parse code better write it first on
 - Use `УстановитьПривилегированныйРежим()` sparingly and only when necessary.
 - Cache expensive calculations using attributes or information registers.
 
+# Client-Server Interaction
+
+- Client and server can be on different machines; account for network latency and payload size.
+- In forms, avoid unnecessary server calls; large tables/trees increase payload and can slow the UI.
+- If a server call is required, prefer `&НаСервереБезКонтекста` and minimize form data transfer.
+
 # Documentation
 
 - Document public procedures/functions with purpose, parameters, and return values.
