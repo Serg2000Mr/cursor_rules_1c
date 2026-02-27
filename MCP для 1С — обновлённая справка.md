@@ -274,7 +274,7 @@ MCP от Инфостарт для работы с метаданными кон
 
 ## References
 
-1. [MCP серверы для 1С](https://docs.onerpa.ru/mcp-servery-1c)
+[^1]: 1. [MCP серверы для 1С](https://docs.onerpa.ru/mcp-servery-1c)
 
 2. [Model Context Protocol - Wikipedia](https://en.wikipedia.org/wiki/Model_Context_Protocol)
 
